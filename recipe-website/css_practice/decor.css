@@ -4,3 +4,41 @@
     font-size: 32px;
     font-weight: bold;
 }
+.part-one {
+    background-color: lightgrey;
+}
+
+.odd {
+    background-color: lightpink;
+    font-family: verdana, DejaVu Sans, sans-serif;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+#three {
+    font-size: 24px;
+}
+
+#four {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Part three */
+.btn1, .btn2 {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', Times, serif;
+}
+.btn1 {
+    background-color: black;
+    color: white;
+}
+.btn2 {
+    background-color: yellow;
+    color: black;
+}
