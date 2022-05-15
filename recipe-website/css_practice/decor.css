@@ -42,3 +42,25 @@
     background-color: yellow;
     color: black;
 }
+
+/* Part four */
+.partfour.pizza {
+    width: 300px;
+}
+
+.partfour.salad {
+    width: 200px;
+}
+
+.partfour {
+    width: auto;
+    height: auto;
+}
+
+/* Part five */
+.container2 > p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
