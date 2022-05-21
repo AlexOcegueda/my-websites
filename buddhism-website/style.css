@@ -33,8 +33,7 @@ li {
 }
 
 button {
-    background-color: blue;
-    color: white;
+    color: black;
 }
 
 .upper-content {
@@ -72,14 +71,17 @@ h2 {
 }
 
 .info {
-    max-width: 200px;
+    max-width: 150px;
+    padding: 10px;
 }
+
 .link {
     border: 2px solid black;
     height: 100px;
     width: 100px;
     color: black;
     border-radius: 25px;
+    padding: 10px;
 }
 
 .quote {
@@ -88,12 +90,25 @@ h2 {
     color: black;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-size: large;
+    font-weight: 900;
+}
+
+.quote-author {
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 .description {
+    display: flex;
     color: black;
+    justify-content: center;
+    padding: 10px;
 }
 
 .footer {
+    padding-top: 20px;
     display: flex;
     justify-content: center;
 }
