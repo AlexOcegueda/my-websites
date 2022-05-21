@@ -44,6 +44,7 @@ button {
 .heading {
     padding: 10px;
 }
+
 .buddhaheader {
     height: 100px;
     width: 200px;
@@ -61,23 +62,34 @@ h2 {
 .body-header {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
-.content-links {
+.content-container {
     display: flex;
     flex-flow: row wrap;
     gap: 10px;
     justify-content: center;
+}
+
+.info {
+    max-width: 200px;
 }
 .link {
     border: 2px solid black;
     height: 100px;
     width: 100px;
     color: black;
+    border-radius: 25px;
 }
 
 .quote {
     display: flex;
     justify-content: center;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.description {
     color: black;
 }
 
