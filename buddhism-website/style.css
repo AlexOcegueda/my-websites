@@ -9,6 +9,7 @@ body > * {
 header {
     display: flex;
     justify-content: space-between;
+
 }
 
 li {
@@ -49,6 +50,8 @@ button {
     width: 200px;
     align-self: center;
     padding-right: 10px;
+    border-radius: 10px;
+
 }
 
 /* Body section */
