@@ -1,3 +1,41 @@
 h1 {
     color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.choice:hover {
+    transform: scale(1.2);
+}
+
+.results {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.score {
+    margin-left: .1rem;
+    font-size: .7rem;
 }
