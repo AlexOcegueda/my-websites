@@ -39,3 +39,12 @@ body {
     margin-left: .1rem;
     font-size: .7rem;
 }
+
+.result-choice {
+    opacity: .5;
+}
+
+.result-choice.winner {
+    opacity: 1;
+    font-size: 1.5rem;
+}
