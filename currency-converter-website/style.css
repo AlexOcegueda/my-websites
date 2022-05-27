@@ -5,3 +5,45 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: blue;
+}
+
+.container {
+    width: 370px;
+    padding: 30px;
+    border-radius: 10px;
+    background: white;
+}
+
+.container header {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.container form {
+    margin: 40px 0 20px 0;
+}
+
+form :where(input, select, button) {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+form p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+form input {
+    height: 30px;
+    font-size: 17px;
+    padding: 0 15px;
+    border: 1px solid lightslategray;
+}
